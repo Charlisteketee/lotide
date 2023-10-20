@@ -24,4 +24,4 @@ assertEqual(result[1], "Labs");
 //test
 const words = ["yo yo", "Lighthouse", "Labs"];
 tail(words);
-assertEqual(words.length,);
+assertEqual(words.length, 3);
