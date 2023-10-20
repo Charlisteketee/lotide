@@ -1,8 +1,8 @@
 const assertEqual = function(actual, expected) {
   if (actual === expected) {
-    console.log("\u{1F60A}");
+    console.log(`Assertion Passed: \u{1F60A}`);
   } else {
-    console.log("\u{1F641}");
+    console.log(`Assertion Failed: \u{1F641}`);
   }
 };
 assertEqual("Lighthouse", "Lighthouse");
