@@ -5,5 +5,5 @@ const assertEqual = function(actual, expected) {
     console.log(`Assertion Failed: \u{1F641}`);
   }
 };
-assertEqual("Lighthouse", "Lighthouse");
-assertEqual(1, "one");
+
+module.exports = assertEqual;
