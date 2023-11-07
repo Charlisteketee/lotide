@@ -44,3 +44,5 @@ const obj3 = { hour: '1', min: 3 };
 
 assertObjectsEqual(obj1, obj2); 
 assertObjectsEqual(obj2, obj3);
+
+module.exports = assertObjectsEqual;
