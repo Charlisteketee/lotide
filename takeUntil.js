@@ -43,3 +43,5 @@ const expectedResults2 = [ 'I\'ve', 'been', 'to', 'Hollywood' ];
 
 assertArrayEqual(results1, expectedResults1); //are array and results1 array equal? should pass
 assertArrayEqual(data2, expectedResults2); //should fail
+
+module.exports = takeUntil;

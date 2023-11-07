@@ -47,3 +47,4 @@ const itemsToRemoveArray = [3, 4];
 const newArray = without(sourceArray, itemsToRemoveArray);
 console.log(newArray);
 
+module.exports = without;

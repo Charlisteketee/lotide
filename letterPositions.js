@@ -37,3 +37,5 @@ const letterPositions = function(sentence) { // function to return an object wit
 assertArrayEqual(letterPositions("hello").e, [1]); // compares the 4 letters and their expected positions
 const result = letterPositions("hello"); // gives a string to the results to log
 console.log(result);
+
+module.exports = letterPositions;

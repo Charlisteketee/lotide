@@ -50,3 +50,5 @@ const expectedNumbers = [2, 4, 6, 8, 10, 12]; // expected output
 
 assertArrayEqual(words, results1); //are words array and results1 array equal? should fail
 assertArrayEqual(doubleNumbers, expectedNumbers); //should pass
+
+module.exports = map;

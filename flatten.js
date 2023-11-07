@@ -19,12 +19,12 @@ const assertArrayEqual = function(arr1, arr2) {
 
 //iterate through the array using a for..of loop
 const flatten = function(arr) {
-  const flattenedArray = [];
+  const flattenedArray = []; // create empty array 
 
-  for (const item of arr) {
-    if (Array.isArray(item)) {
+  for (const item of arr) { // loops through each elements 'item' in the array
+    if (Array.isArray(item)) { // determine if item is an array or not
       for (const nestedItem of item) {
-        flattenedArray.push(nestedItem);
+        flattenedArray.push(nestedItem); // (add item individually to flattenedArray) -push the 'nestedItem' into the 'flattenedArray' 
       }
     } else {
       flattenedArray.push(item);
@@ -38,3 +38,5 @@ const flatten = function(arr) {
 const nestedArray = [1, 2, [3, 4], 5, [6]];
 const flattened = flatten(nestedArray);
 console.log(flattened);
+
+module.exports = flatten;

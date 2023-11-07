@@ -34,3 +34,5 @@ assertEqual(result2, "Akaleri"); // Should pass
 
 const result3 = findKey(hotels, x => x.stars === 4); // nothing!
 assertEqual(result3, undefined); // Should pass
+
+module.exports = findKey;

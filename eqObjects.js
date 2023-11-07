@@ -55,3 +55,5 @@ assertEquals(eqObjects(dogObject , catObject), true);
 const puppyObject= { size: "medium", color: "red", hight: "tall" };
 eqObjects(dogObject , puppyObject); // => false
 assertEquals(eqObjects(dogObject , puppyObject), false);
+
+module.exports = eqObjects;
