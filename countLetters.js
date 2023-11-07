@@ -23,3 +23,5 @@ const countLetters = function(string) {
 
 const result = countLetters("Charli is so cool");
 console.log(result);
+
+module.exports = countLetters;
