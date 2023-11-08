@@ -27,19 +27,19 @@ This project was created and published by me as part of my learnings at Lighthou
 The following functions are currently implemented:
 
 * `function1(assertArraysEqual)`: compares two arrays and sends a message whether or not they match
-* `function2(assertEqual)`: compares two values and sends a message whether or not they match
-* `function3(assertObjectsEqual)`: compares two objects and sends a message whether or not they match
-* `function4(countLetters)`: returns a count of each of the letters in a sentence
-* `function5(countOnly)`: returns an object containing counts of everything that the input object listed
-* `function6(eqArrays)`: determines if two arrays are equal
-* `function7(eqObjects)`: determines if two objects are equal
-* `function8(findKey)`: returns the first key that is truthy
-* `function9(findKeyByValue)`: returns the first key that is truthy of a predicate value
-* `function10(flatten)`: flattens array 
-* `function11(head)`: gets the first element of array
-* `function12(letterPositions)`: returns all indices in a string where each character is found
-* `function13(map)`: returns a new array based on results of a callback function
-* `function14(middle)`: returns the middle-most element of an array
-* `function15(tail)`: gets all elements except the first of an array
-* `function16(takeUntil)`: elements of array are taken until predicate returns falsey
-* `function17(without)`: creates an array excluding a specific value
+* `function2(assertEqual)`: takes in 2 values and returns true if they are equal and false otherwise
+* `function3(assertObjectsEqual)`: takes in 2 objects and returns true if they are equal and false otherwise.
+* `function4(countLetters)`: takes in a sentence and returns a count of each of the letters in the sentence
+* `function5(countOnly)`: takes in a collection of items and returns a specific subset of those items
+* `function6(eqArrays)`: takes in 2 arrays and returns true if the arrays are equal and false otherwise
+* `function7(eqObjects)`: takes in 2 objects and return true if they are equal and false otherwise
+* `function8(findKey)`: takes in an object and callback and returns the first key that meets the criteria specified in callback
+* `function9(findKeyByValue)`: takes in an object and a value and returns the first key that corresponds to that value
+* `function10(flatten)`: takes in an array that contains elements including nested array of elements and returns a flattened version of the array
+* `function11(head)`: takes in an array and returns the first element in the array
+* `function12(letterPositions)`: takes in a string and returns all indices of letter positions in the string
+* `function13(map)`: takes in an array and a callback and returns a new array based on the results of the callback on each item in the array
+* `function14(middle)`: takes in an array and returns the middle-most element of an array
+* `function15(tail)`: takes in an array and returns everything except the first element of the array.
+* `function16(takeUntil)`: takes in an array and callback and returns a slice of the array based on the criteria specified in the callback
+* `function17(without)`: takes in a source array and an itemsToRemove arrays and returns only the items from the source array that are not in the itemsToRemove array
