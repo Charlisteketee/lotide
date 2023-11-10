@@ -7,14 +7,19 @@ const assertEqual = function(actual, expected) {
 };
 
 const findKeyByValue = function(genre, tvShow) { // function to find a key by the value
-  const results = (genre);
+  // how to handle cases where there is no corresponding key to the value
+  let noKey = true;
 
   for (const key in genre) {
     if (genre[key] === tvShow) {
+      noKey = false;
       return key;
     }
   }
-return results;
+  // if there is no key associated with the value it needs to return undefined
+  if (noKey) {
+    return undefined;
+  };
 };  
 
 //tests
